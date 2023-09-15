@@ -48,15 +48,7 @@ body {
     text-decoration: none;
     flex-direction: column;
 
- 
 }
-
-
-
-
-
-
-
 
 
 
@@ -74,6 +66,8 @@ body {
     font-weight: 700;
 }
 
+
+
 .container {
 
     display: flex;
@@ -81,12 +75,14 @@ body {
     align-items: center;
     flex-direction: column;
    justify-content: center;
-    gap: 1.8rem;
-    width: 100%;
+    gap: 2rem;
+    width: 459px;
     height: 100vh;
     padding: 1rem;
 
 }
+
+
 
 .botao_bosca {
     
@@ -112,7 +108,7 @@ body {
     background: #121214;
     opacity: 0.9;
     padding: 3rem;
-    max-width: 350px;
+    max-width: 450px;
     width: 89%;
     height: auto;
     gap: 5rem;
@@ -155,5 +151,18 @@ body {
     font-weight: 600;
 }
 
+.div_temp_min-and-max {
+    display: flex;
+    margin-bottom: 1.3rem;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div_temp_min-and-max   .temperaturaMinima, .temperaturaMax {
+    font-size: 1.5rem;
+
+}
 
 
